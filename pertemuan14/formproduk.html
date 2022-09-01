@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insert Data produk</title>
+  </head>
+  <body>
+    <form
+      action="prosesproduksi.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <label> Nama Produk: </label>
+      <input
+        type="text"
+        name="nama_produk"
+        placeholder="Masukkan nama produk"
+      />
+      <br /><br />
+      <label> Harga Produk: </label>
+      <input
+        type="text"
+        name="harga_produk"
+        placeholder="Masukkan harga produk"
+      />
+      <br /><br />
+      <label> Merk Produk: </label>
+      <input
+        type="text"
+        name="merk_produk"
+        placeholder="Masukkan merk produk"
+      />
+      <br /><br />
+      <input name="uploadedfile" type="file" />
+      <br /><br />
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>

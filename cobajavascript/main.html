@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan Web</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let mengulang = confirm("Apakah anda ingin mengulang?");
+      let counter = 0;
+      while (mengulang) {
+        let lagi = confirm("Apakah anda ingin mengulang lagi?");
+        counter++;
+        if (lagi == false) {
+          mengulang = false;
+        }
+      }
+      document.write("Perulangan dilakukan sebanyak : " + counter + "kali");
+    </script>
+  </body>
+</html>
